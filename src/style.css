@@ -62,7 +62,7 @@ section {
   content: '';
   position: absolute;
   top: 0; left: 0; right: 0; bottom: 0;
-  margin-bottom: 30%;
+  margin-bottom: 15%;
   display: block;
   background: url(https://picsum.photos/g/1920/1080?random) top center;
   background-size: cover;
