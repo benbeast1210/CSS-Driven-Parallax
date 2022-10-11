@@ -70,6 +70,42 @@ section {
   z-index: -1;
 }
 
+@media (max-width: 1000px) {
+  .lastSection::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    margin-bottom: 40%;
+    display: block;
+    background: url(https://picsum.photos/g/1920/1080?random) top center;
+    background-size: cover;
+    transform: translateZ(-.5px) scale(1.6);
+    z-index: -1;
+  }
+
+  footer {
+    padding-top: 120%;
+  }
+}
+
+@media (max-width: 700px) {
+  .lastSection::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    margin-bottom: 80%;
+    display: block;
+    background: url(https://picsum.photos/g/1920/1080?random) top center;
+    background-size: cover;
+    transform: translateZ(-.5px) scale(1.6);
+    z-index: -1;
+  }
+
+  footer {
+    padding-top: 120%;
+  }
+}
+
 /*************************************************************
   HEADINGS
 **************************************************************/
